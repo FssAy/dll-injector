@@ -1,0 +1,12 @@
+# Build
+/target
+Cargo.lock
+
+# IntelliJ
+.idea
+*.iml
+
+# Unused
+src/dll.rs
+src/errors.rs
+src/pid_search.rs

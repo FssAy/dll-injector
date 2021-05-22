@@ -1,0 +1,18 @@
+[package]
+name = "dll-injector"
+version = "0.1.0"
+edition = "2018"
+authors = ["FssAy"]
+
+[lib]
+path = "src/injector.rs"
+
+[dependencies.libc]
+version = "0.2.94"
+
+[dependencies.winapi]
+version = "0.3"
+features = [
+    "winnt",
+    "winbase"
+]
